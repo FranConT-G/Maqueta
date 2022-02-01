@@ -10,7 +10,7 @@
     padding-top: 6.25em;
     padding-left: 9.375em;
     padding-right: 9.375em;
-    background-color: rgba(77, 76, 76, 0.233);
+    background: linear-gradient(black, #62dfc4, #262727, #777676, #6e6d6c);
 }
 
 
@@ -27,12 +27,14 @@ nav {
 
 
 b {
-    font-size: 0.688em;
-    color:rgb(0, 0, 0)
+    font-size: 1.1vw;
+    color:rgba(34, 31, 31, 0.644);
 }
 
 .d-inline-block {
-    background-color: black;
+    max-width: 100%;
+    height: auto;
+    background-color: #5e5a5a;
 }
 
 .logo-texto {
@@ -57,7 +59,7 @@ b {
 }
 
 .redes ul li a{
-    color: rgb(0, 0, 0);
+    color: rgba(34, 31, 31, 0.644);
 }
 
 
@@ -69,11 +71,12 @@ b {
 .principal {
     justify-content: center;
     background-color: white;
-    border: 0.063em solid rgba(114, 113, 113, 0.74);
+    border: 0.063em solid rgba(0, 0, 0, 0.74);
     -webkit-border-radius: 1.688em;
     border-radius: 1.688em;
     height: 37.5em;
     width: 100%;
+    position: relative;
 }
 
 .banner-img {
@@ -86,19 +89,18 @@ b {
 
 
 .perfil {
-    width:12.5em;
-    height:12.5em;
-    border-radius:9.375;
+    width:200px;    
+    height:200px;
+    border-radius: 50%;
 }
-.perfil-img {
-    position: relative;
-    bottom: 6.25em;
-    left: 1.25em;
-    width: 9.375em;
-    height:9.375em;
-    border-radius:9.375em;
-    border: 0.125em solid rgb(252, 249, 249);
 
+.perfil-img {
+    position: absolute;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 0.125em solid rgb(252, 249, 249);
+    
 }
 
 
