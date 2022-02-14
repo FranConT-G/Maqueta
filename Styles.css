@@ -36,12 +36,13 @@
 
 a {
     text-decoration: none;
-
 }
+
 
 b {
     color:rgb(255, 255, 255)
 }
+
 
 .log-in {
     position: relative;
@@ -72,7 +73,7 @@ b {
 }
 
 
-.profile {
+.picture {
     position: relative;
     align-self: center;
     height: 300px;
@@ -84,20 +85,26 @@ b {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 4px solid #fff;
+    border: 4px solid rgb(7, 7, 7);
 }
 
 
 
-/***---------------------------- ACERCA DE CSS -----------------------------------***/ 
 
 .contenido {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #636363;
 }
 
-.acerca-de {
+
+            /***---------------------------- PERFIL CSS -----------------------------------***/ 
+
+
+.profile {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -106,16 +113,97 @@ b {
     width: 1000px;
     -webkit-border-radius: 16px;
     border-radius: 16px;
-    border: 1px solid rgba(66, 65, 65, 0.322);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
 }
 
 .profile-name {
     display: flex;
     justify-content:center;
     padding-top: 15px;
-    padding-bottom: 10px;
+    text-decoration: underline;
 }
 
-h3 {
-    text-decoration: underline;
+.profile-webdev {
+    display: flex;
+    justify-content:center;
+    padding-bottom: 20px;
+}
+
+            /***---------------------------- EXPERIENCIA CSS -----------------------------------***/ 
+
+
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    padding: 25px;
+    width: 1000px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+.experience-experiencia{
+    padding-bottom: 25px;;
+}
+
+.experience-list {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: auto auto auto  ;
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    height:3px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    background-color: black;
+}
+
+
+            /***---------------------------- EDUCACION CSS -----------------------------------***/ 
+
+
+
+.education {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    padding: 25px;
+    width: 1000px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+.education-educacion {
+    padding-bottom: 25px;;
+}
+
+.education img {
+    height: 48px;
+    width: 48px;
+}
+
+.education-list {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: auto auto auto  ;
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    height:3px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    background-color: black;
 }
